@@ -1,0 +1,17 @@
+create table login (
+id INT AUTO_INCREMENT PRIMARY KEY,
+email CHAR(20) NOT NULL,
+password CHAR(50) NOT NULL,
+phonenumber CHAR(11),
+name CHAR(10),
+gender CHAR(2),
+old INT,
+birth DATE
+);
+
+create table user (
+id INT AUTO_INCREMENT PRIMARY KEY,
+vehicle CHAR(20) NOT NULL,
+register DATE,
+inspection DATE
+);

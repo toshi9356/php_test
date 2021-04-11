@@ -1,0 +1,196 @@
+@charset="UTF-8";
+
+body {
+	margin:0;
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+}
+
+#top1 {
+	color:white;
+	background-color:black;
+	display:flex;
+}
+
+#top2 {
+	font-size:30px;
+	font-weight:bold;
+	margin:auto 0;;
+}
+
+#top3 {
+	margin:30px 40px;
+}
+
+#nav1 {
+	list-style:none;
+	margin:auto 0 0 auto;
+}
+
+#nav1 a {
+	color:silver;;
+	font-size:17px;
+	text-decoration:none;
+}
+
+#nav1 a:hover {
+	color:white;
+}
+
+#nav2 {
+	list-style:none;
+	display:flex;
+	margin:0;
+	background-color:black;
+}
+
+#nav2 li {
+	color:silver;
+	background-color:black;
+	border:solid 1px silver;
+	width:180px;
+	height:40px;
+	text-align:center;
+	font-size:20px;
+}
+
+#nav2 li:hover {
+	color:white;
+}
+
+#nav2 a {
+	text-decoration:none;
+}
+
+#header img {
+	width:100%;
+}
+
+#top4 {
+	margin:20px 40px;
+}
+
+.lineup1 {
+	background-color:black;
+}
+
+.lineup1 p{
+	width:70%;
+	height:40px;
+	font-size:20px;
+	margin:0 15% 0 15%;
+	padding:0;
+	color:white;
+	background-color:black;
+}
+
+.lineup2 {
+	background-color:black;
+}
+
+.lineup2 img{
+	width:70%;
+	margin:0 15% 0 15%;
+}
+
+.lineup3 img{
+	width:58%;
+	margin:10px 21% 10px 21%;
+}
+
+#footer {
+	margin:auto 20px 20px 20px;
+	padding-top:20px;
+	text-align:center;
+}
+
+.gazou1 img {
+	width:100%;
+}
+
+.mozi1 {
+	font-size:18px;
+	padding:0 40px;
+}
+
+#top5 {
+	margin:20px 40px;
+}
+
+.login {
+	text-align:center;
+	background-color:black;
+	color:white;
+	font-size:20px;
+	margin:100px 300px 0 300px;
+}
+
+.name {
+	text-align:center;
+	font-size:20px;
+	margin:100px auto 0 auto;
+}
+
+.form {
+	border:solid 1px black;
+	text-align:center;
+	padding:15px 0;
+	margin:0 300px;
+	font-size:20px;
+}
+
+.return {
+	margin:30px auto 0 auto;
+}
+
+label {
+	margin:15px;
+}
+
+input {
+	text-align:center;
+	width:150px;
+	height:28px;
+	margin:10px 5px 20px 5px;
+	font-size:16px;
+}
+
+select {
+	font-size:16px;
+	width:50px;
+	height:28px;
+	margin:10px auto 20px auto;
+}
+
+.gender {
+	width:60px;
+	height:15px;
+}
+
+.submit {
+	height:30px;
+}
+
+.sakuzyo {
+	border:solid 1px black;
+	text-align:center;
+	padding:15px 0;
+	margin:20px 300px;
+	font-size:20px;
+}
+
+.touroku a {
+	text-decoration:none;
+	color:red;
+}
+
+.touroku a:hover {
+	color:pink;
+}
+
+.table {
+	text-align:center;
+	font-size:20px;
+	margin:50px 300px 0 300px;
+}
